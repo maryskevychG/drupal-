@@ -1,0 +1,30 @@
+uuid: ec0a23f1-4dba-469e-b4a6-69f711019e9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_user
+    - taxonomy.vocabulary.tags
+    - taxonomy.vocabulary.widget
+id: taxonomy_term.widget.field_user
+field_name: field_user
+entity_type: taxonomy_term
+bundle: widget
+label: User
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+      widget: widget
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

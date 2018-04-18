@@ -1,0 +1,8 @@
+uuid: a46db234-7022-49e7-b7fe-654929c12473
+langcode: en
+status: true
+dependencies: {  }
+id: pdf_block
+label: 'PDF block'
+revision: 0
+description: '111'

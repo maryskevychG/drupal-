@@ -1,0 +1,22 @@
+uuid: 979675b9-4d96-4716-9106-2a4224f2c673
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.time
+  module:
+    - text
+id: node.time.body
+field_name: body
+entity_type: node
+bundle: time
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,9 @@
+uuid: a13e8a5b-8fe5-49a8-87ad-45e2ea3cd8cc
+langcode: en
+status: true
+dependencies: {  }
+name: Widget
+vid: widget
+description: 'my first vocabulary'
+hierarchy: 0
+weight: 0

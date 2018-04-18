@@ -1,0 +1,23 @@
+uuid: ad03726a-5d64-4db8-ba38-d167b6eba7c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - file
+id: block_content.field_pdf_file
+field_name: field_pdf_file
+entity_type: block_content
+type: file
+settings:
+  display_field: false
+  display_default: true
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

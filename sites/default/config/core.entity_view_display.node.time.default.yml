@@ -1,0 +1,26 @@
+uuid: 5d0d0d09-9cd9-4524-9b92-6d1c412c5067
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.time.body
+    - node.type.time
+  module:
+    - text
+    - user
+id: node.time.default
+targetEntityType: node
+bundle: time
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

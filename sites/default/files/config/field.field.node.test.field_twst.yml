@@ -1,0 +1,21 @@
+uuid: d1306282-4c82-4d3c-ba40-793807273fb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twst
+    - node.type.test
+  module:
+    - options
+id: node.test.field_twst
+field_name: field_twst
+entity_type: node
+bundle: test
+label: twst
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

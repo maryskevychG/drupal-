@@ -1,0 +1,8 @@
+uuid: 5d3b2168-d4ee-4077-9b76-027331cdc1fd
+langcode: en
+status: true
+dependencies: {  }
+id: hours_and_location_block
+label: 'Hours and location block'
+revision: 0
+description: "InternetDevels\r\n\r\nвул. Боженка 34г, Луцьк, 43005, Україна\r\n\r\n+38 050 640 98 44\r\n\r\noffice@internetdevels.com\r\n\r\nv.levandovsky\r\n\r\nHR-Відділ\r\n\r\n+38 067 332 17 55\r\n\r\njob@internetdevels.com\r\n\r\nidevels.hr\r\n\r\n    Наша команда\r\n    Портфоліо\r\n    Блог\r\n    Drupal Give"

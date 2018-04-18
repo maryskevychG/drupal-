@@ -1,0 +1,25 @@
+uuid: d21c5b4b-6421-4698-8cb4-d8d4c9ff7832
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:af08f382-38b0-49ee-96af-214894e77a72'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: sashenkatestblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:af08f382-38b0-49ee-96af-214894e77a72'
+settings:
+  id: 'block_content:af08f382-38b0-49ee-96af-214894e77a72'
+  label: 'SASHENKA TEST BLOCK'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

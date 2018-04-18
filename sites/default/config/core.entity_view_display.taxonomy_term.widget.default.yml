@@ -1,0 +1,39 @@
+uuid: 07549283-1429-4441-9460-499a5213f445
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.widget.field_first_taxonomy_term
+    - field.field.taxonomy_term.widget.field_user
+    - taxonomy.vocabulary.widget
+  module:
+    - text
+id: taxonomy_term.widget.default
+targetEntityType: taxonomy_term
+bundle: widget
+mode: default
+content:
+  description:
+    label: inline
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_first_taxonomy_term:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_user:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

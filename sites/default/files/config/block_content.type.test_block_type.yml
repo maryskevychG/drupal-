@@ -1,0 +1,8 @@
+uuid: 36c59555-d3d8-4b07-982b-58b9efb2807b
+langcode: en
+status: true
+dependencies: {  }
+id: test_block_type
+label: 'TEST BLOCK TYPE'
+revision: 0
+description: kakakakaka

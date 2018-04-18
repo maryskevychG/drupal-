@@ -1,0 +1,43 @@
+uuid: 85528dab-80d5-45f5-92d7-16c5a13395e1
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:test_block_type:9dc857fa-5224-4c33-b491-ac862b8d83c1'
+  module:
+    - block_content
+    - node
+    - user
+  theme:
+    - bartik
+id: madebysashenka
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:9dc857fa-5224-4c33-b491-ac862b8d83c1'
+settings:
+  id: 'block_content:9dc857fa-5224-4c33-b491-ac862b8d83c1'
+  label: 'Made by Sashenka'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+      authenticated: authenticated
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

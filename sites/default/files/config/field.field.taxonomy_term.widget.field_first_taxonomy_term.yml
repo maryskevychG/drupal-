@@ -1,0 +1,21 @@
+uuid: 054f9855-4fd2-4043-82c6-ffb375208c4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_first_taxonomy_term
+    - taxonomy.vocabulary.widget
+id: taxonomy_term.widget.field_first_taxonomy_term
+field_name: field_first_taxonomy_term
+entity_type: taxonomy_term
+bundle: widget
+label: 'First taxonomy term'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,22 @@
+uuid: 834b5151-3acb-4ad6-9021-e45480421c5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.field.block_content.hours_and_location_block.body
+  module:
+    - text
+id: block_content.hours_and_location_block.default
+targetEntityType: block_content
+bundle: hours_and_location_block
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
